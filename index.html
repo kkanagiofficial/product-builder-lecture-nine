@@ -19,6 +19,30 @@
         <button id="generate">번호 추첨</button>
         <div id="numbers" class="numbers-container"></div>
     </div>
+    
+    <section class="contact-form-section">
+        <h2>Homspree 제휴 문의</h2>
+        <form action="https://formspree.io/f/xwvoredl" method="POST" class="contact-form">
+            <div class="form-group">
+                <label for="name">이름:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">이메일:</label>
+                <input type="email" id="email" name="_replyto" required>
+            </div>
+            <div class="form-group">
+                <label for="company">회사명 (선택 사항):</label>
+                <input type="text" id="company" name="company">
+            </div>
+            <div class="form-group">
+                <label for="message">문의 내용:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit">문의 제출</button>
+        </form>
+    </section>
+
     <script src="main.js"></script>
 </body>
 </html>
